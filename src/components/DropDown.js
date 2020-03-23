@@ -19,6 +19,12 @@ class DropDown extends Component {
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"
+          style={{
+            display: 'inline-block',
+            position: 'relative',
+            padding: 10,
+            margin: -2
+          }}
         >
           Dropdown
         </a>
